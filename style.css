@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Roboto+Slab:wght@100..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: url(img/show.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: inline-flex;
+}
+
+.plain{
+    color: rgb(255, 255, 255);
+    font-family: "Glegoo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.plain h1{
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: 5px;
+
+}
+
+.plain h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.forms{
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 100px;
+    font-family: "Glegoo", serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.forms h3{
+    text-align: center;
+}
+
+.forms p{
+    text-align: left;
+}
+
+.forms input{
+    size: 10px;
+    width: 200px;
+}
+
+.enviar{
+    text-transform: uppercase;
+    margin-top: 20px;
+    width: 100px;
+}
