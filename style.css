@@ -8,6 +8,11 @@ body{
     display: inline-flex;
 }
 
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
 .plain{
     color: rgb(255, 255, 255);
     font-family: "Glegoo", serif;
@@ -31,12 +36,17 @@ body{
 }
 
 .forms{
-    display: inline-flex;
-    justify-content: flex-end;
+    background-color: #391a04;
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    border-style: none;
+    display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 250px;
+    margin-top: 140px;
     font-family: "Glegoo", serif;
-    color: rgb(255, 255, 255);
+    color: #b5a79d;
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
@@ -47,16 +57,28 @@ body{
 }
 
 .forms p{
+    margin-left: 20px;
     text-align: left;
 }
 
 .forms input{
+    border-style: none;
+    color:#391a04;
+    background-color: #b5a79d;
+    border-radius: 10px;
+    margin-left: 20px;
     size: 10px;
     width: 200px;
 }
 
-.enviar{
+.forms button{
+    color:#391a04;
+    background-color: #b5a79d;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 20px;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 50px;
     width: 100px;
 }
