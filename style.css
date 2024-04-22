@@ -38,7 +38,7 @@ body{
 .forms{
     background-color: #391a04;
     width: 500px;
-    height: 450px;
+    height: 500px;
     border-radius: 20px;
     border-style: none;
     display: flex;
@@ -68,13 +68,14 @@ body{
     border-radius: 10px;
     margin-left: 20px;
     size: 10px;
-    width: 200px;
+    width: 450px;
+    height: 30px;
 }
 
 .forms button{
     color:#391a04;
     background-color: #b5a79d;
-    height: 30px;
+    height: 40px;
     border-radius: 10px;
     border-style: none;
     margin-left: 20px;
